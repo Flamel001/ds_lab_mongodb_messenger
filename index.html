@@ -10,8 +10,8 @@
 <script>
     function postChat(chat) {
         console.log("Ready chat is", chat)
-        $.post("http://54.93.252.185:3020/chats", chat)
-    }
+        $.post("http://172.31.23.222:3020/chats", chat)
+    }//wow, someone checking code. Better go to spat
 
     function getChats() {
         $.get("/chats", (chats) => {

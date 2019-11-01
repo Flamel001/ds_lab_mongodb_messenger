@@ -441,7 +441,3 @@ rs.config() after killing main machine:
 
 Screenshot:
 ![ScreenShot](https://cdn1.savepice.ru/uploads/2019/11/1/f9140e5bdc83670f206904c90a7d8b34-full.png)
-<<<<<<< HEAD
-=======
-
->>>>>>> 701d48c8a8692b6b617364265b096b8420db77be

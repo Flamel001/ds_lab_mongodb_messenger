@@ -150,6 +150,7 @@ rs.status() before shutting machines:
 ```
 rs.config() before shutting machines:
 
+```
 {
         "_id" : "rs0",
         "version" : 1,
@@ -213,12 +214,15 @@ rs.config() before shutting machines:
                 "replicaSetId" : ObjectId("5dbbd91653cbe1ff6c062bb3")
         }
 }
+```
+
 Screenshot:
 ![ScreenShot](https://cdn1.savepice.ru/uploads/2019/11/1/1cfbf7f10ba4c2acf298ca27d23e3c06-full.png)
 
 
 rs.status() after killing main machine:
 
+```
 {
         "set" : "rs0",
         "date" : ISODate("2019-11-01T07:26:32.330Z"),
@@ -365,10 +369,11 @@ rs.status() after killing main machine:
         },
         "operationTime" : Timestamp(1572593191, 3)
 }
+```
 
 rs.config() after killing main machine:
 
-
+```
 {
         "_id" : "rs0",
         "version" : 1,
@@ -432,6 +437,7 @@ rs.config() after killing main machine:
                 "replicaSetId" : ObjectId("5dbbd91653cbe1ff6c062bb3")
         }
 }
+```
 
 Screenshot:
 ![ScreenShot](https://cdn1.savepice.ru/uploads/2019/11/1/f9140e5bdc83670f206904c90a7d8b34-full.png)

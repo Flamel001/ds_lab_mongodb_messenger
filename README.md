@@ -1,6 +1,7 @@
 # ds_lab_mongodb_messenger
 
 rs.status() before shutting machines:
+
 {
         "set" : "rs0",
         "date" : ISODate("2019-11-01T07:14:40.368Z"),
@@ -213,4 +214,4 @@ rs.config() before shutting machines:
         }
 }
 Screenshot:
-![ScreenShot](https://ibb.co/qRRMZcW)
+![ScreenShot](https://cdn1.savepice.ru/uploads/2019/11/1/1cfbf7f10ba4c2acf298ca27d23e3c06-full.png)
